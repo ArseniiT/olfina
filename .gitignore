@@ -1,0 +1,54 @@
+# General
+node_modules/
+.env
+.env.local
+.env.*.local
+*.log
+*.log.*
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backend (Node.js/TypeScript)
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/coverage/
+backend/.env
+backend/.env.local
+backend/tsconfig.tsbuildinfo
+
+# Frontend (например, React/Vue/Angular)
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/coverage/
+frontend/.env
+frontend/.env.local
+
+# Infra (например, Docker, Terraform, Kubernetes)
+infra/.terraform/
+infra/terraform.tfstate
+infra/terraform.tfstate.*
+infra/.env
+infra/*.tfvars
+infra/kubeconfig
+infra/.kube/
+
+# Database
+database/*.sql
+database/*.db
+database/*.sqlite
+database/dump/
+
+# CI/CD and Testing
+coverage/
+artifacts/
+.cache/
+*.junit.xml
+
+# Production artifacts
+dist/
+build/
